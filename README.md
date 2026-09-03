@@ -1,10 +1,10 @@
-# EUSTX50 3m OHLCV Stock index Historical Data — Free Sample
+# EUSTX50 3m OHLCV Index Historical Data — Free Sample
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-965_428_rows-blue)](https://getdata.finance/datasets/eustx50) [![Updated](https://img.shields.io/badge/weekly_update-every_Saturday_8am_UTC-green)](https://getdata.finance) [![Full data on getdata.finance](https://img.shields.io/badge/download-getdata.finance-orange)](https://getdata.finance/datasets/eustx50)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-971_683_rows-blue)](https://getdata.finance/datasets/eustx50) [![Updated](https://img.shields.io/badge/weekly_update-every_Saturday_8am_UTC-green)](https://getdata.finance) [![Full data on getdata.finance](https://img.shields.io/badge/download-getdata.finance-orange)](https://getdata.finance/datasets/eustx50)
 
 ### -> [**Download the full EUSTX50 dataset on getdata.finance**](https://getdata.finance/datasets/eustx50)
 
-**EUSTX50 3m OHLCV stock index historical data** — ultra high-quality 3m OHLCV for **Euro Stoxx 50**. Global cash and extended index sessions — Asia, Europe and US coverage, not US-hours only. Clean `datetime, open, high, low, close, volume` CSV for backtesting, algorithmic trading and quantitative research.
+**EUSTX50 3m OHLCV index historical data** — ultra high-quality 3m OHLCV for **EURO STOXX 50**. Clean `time, open, high, low, close, volume` CSV for backtesting, algorithmic trading and quantitative research.
 
 ## Table of contents
 
@@ -21,14 +21,13 @@
 
 ## Why this dataset?
 
-- **Ultra high-quality 3m OHLCV** for **Euro Stoxx 50** (Stock index)
-- **Global cash and extended index sessions — Asia, Europe and US coverage, not US-hours only**
-- **Clean CSV schema** — `datetime, open, high, low, close, volume` (no gaps in formatting)
-- **Free evaluation sample** on GitHub (`3m`) · **11 timeframes** on [getdata.finance](https://getdata.finance/datasets/eustx50) · **965,428** `1m` rows in the full archive
+- **Ultra high-quality 3m OHLCV** for **EURO STOXX 50** (Index)
+- **Clean CSV schema** — `time, open, high, low, close, volume` (no gaps in formatting)
+- **Free evaluation sample** on GitHub (`3m`) · **11 timeframes** on [getdata.finance](https://getdata.finance/datasets/eustx50) · **971,683** `3m` rows in the full archive
 - Built for **backtesting**, **algorithmic trading** and **quantitative finance** workflows
 - **Weekly refresh** — [getdata.finance](https://getdata.finance) every **Saturday, 8am UTC+0**; GitHub `3m` sample updated in sync
 
-> **Sample on GitHub** · `EUSTX50_3m.csv` (36,436 rows, `2026-01-27` -> `2026-07-31`). **Full archive on [getdata.finance](https://getdata.finance/datasets/eustx50)** — **965,428** `1m` rows (~66.13 MB), **11 timeframes** (1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W), `2012-08-27` -> `2026-07-31`.
+> **Sample on GitHub** · `EUSTX50_3m.csv` (18,481 rows, `2026-06-01` -> `2026-09-01`, 1.80 MB). **Full archive on [getdata.finance](https://getdata.finance/datasets/eustx50)** — **971,683** `3m` rows (full `1m`: 2,836,357), **11 timeframes**, `2012-08-27` -> `2026-09-01`.
 
 ## Download sample
 
@@ -44,11 +43,11 @@ Full archive & live chart on getdata.finance: **[https://getdata.finance/dataset
 
 | | **Sample (this repo)** | **Full dataset ([getdata.finance](https://getdata.finance/datasets/eustx50))** |
 |---|--:|---|
-| Instrument | Euro Stoxx 50 · Stock index | Euro Stoxx 50 · Stock index |
+| Instrument | EURO STOXX 50 · Index | EURO STOXX 50 · Index |
 | Timeframes | `3m` (sample) | **11** — 1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W |
-| 1m rows | 36,436 | **965,428** |
-| Size | 3.18 MB | ~66.13 MB |
-| Period | `2026-01-27` -> `2026-07-31` | `2012-08-27` -> `2026-07-31` |
+| 3m rows | 18,481 | **971,683** |
+| Size | 1.80 MB | full ZIP on [getdata.finance](https://getdata.finance/datasets/eustx50) |
+| Period | `2026-06-01` -> `2026-09-01` | `2012-08-27` -> `2026-09-01` |
 | File | `EUSTX50_3m.csv` | ZIP on [getdata.finance](https://getdata.finance/datasets/eustx50) |
 | Coverage report | — | [EUSTX50 coverage](https://getdata.finance/coverage/eustx50) |
 | Updates | Weekly (Saturday, 8am UTC+0) — GitHub sample | Weekly (Saturday, 8am UTC+0) — all timeframes |
@@ -57,7 +56,7 @@ Full archive & live chart on getdata.finance: **[https://getdata.finance/dataset
 
 This GitHub repository ships a **`3m` evaluation sample** only. On **[getdata.finance](https://getdata.finance/datasets/eustx50)**, each full asset archive is delivered as a ZIP with **11 gap-free OHLCV timeframes** (one CSV per timeframe):
 
-**1m** · **3m** · **5m** · **15m** · **30m** · **1H** · **4H** · **12H** · **1D** · **3D** · **1W**
+**1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W**
 
 GitHub = `3m` sample · [getdata.finance](https://getdata.finance/datasets/eustx50) = all **11** timeframes above for the same instrument.
 
@@ -74,29 +73,29 @@ First and latest rows from the GitHub sample **`EUSTX50_3m.csv`**:
 
 **First rows**
 
-| datetime | open | high | low | close | volume |
+| time | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2026-01-27T19:12:00+00:00 | 5993.13 | 5995.12 | 5992.63 | 5994.63 | 8 |
-| 2026-01-27T19:15:00+00:00 | 5994.63 | 5994.63 | 5994.11 | 5994.11 | 7 |
-| 2026-01-27T19:18:00+00:00 | 5994.11 | 5995.61 | 5994.11 | 5995.61 | 5 |
-| 2026-01-27T19:21:00+00:00 | 5995.61 | 5996.11 | 5995.11 | 5995.61 | 12 |
-| 2026-01-27T19:24:00+00:00 | 5995.61 | 5996.61 | 5995.61 | 5996.61 | 6 |
+| 2026-06-01T19:57:00+00:00 | 6121.51 | 6122.5 | 6120.01 | 6121.06 | 61 |
+| 2026-06-02T06:00:00+00:00 | 6121.06 | 6132.38 | 6118.06 | 6130.87 | 49.46697 |
+| 2026-06-02T06:03:00+00:00 | 6130.87 | 6135.39 | 6130.87 | 6134.37 | 59 |
+| 2026-06-02T06:06:00+00:00 | 6134.37 | 6134.87 | 6132.87 | 6133.89 | 40 |
+| 2026-06-02T06:09:00+00:00 | 6133.89 | 6134.38 | 6130.87 | 6130.87 | 31 |
 
 **Last rows**
 
-| datetime | open | high | low | close | volume |
+| time | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2026-07-31T19:45:00+00:00 | 6479.65 | 6480.66 | 6478.66 | 6479.16 | 60 |
-| 2026-07-31T19:48:00+00:00 | 6479.16 | 6483.17 | 6478.65 | 6480.66 | 48 |
-| 2026-07-31T19:51:00+00:00 | 6480.66 | 6483.65 | 6477.66 | 6483.65 | 40 |
-| 2026-07-31T19:54:00+00:00 | 6483.65 | 6484.67 | 6477.17 | 6477.17 | 39 |
-| 2026-07-31T19:57:00+00:00 | 6477.17 | 6477.17 | 6467.15 | 6469.2 | 200 |
+| 2026-09-01T19:45:00+00:00 | 6343.42 | 6345.43 | 6342.44 | 6345.43 | 22 |
+| 2026-09-01T19:48:00+00:00 | 6345.43 | 6345.44 | 6342.42 | 6343.42 | 30 |
+| 2026-09-01T19:51:00+00:00 | 6343.42 | 6343.43 | 6341.92 | 6341.94 | 6 |
+| 2026-09-01T19:54:00+00:00 | 6341.94 | 6345.44 | 6341.94 | 6344.94 | 47 |
+| 2026-09-01T19:57:00+00:00 | 6344.94 | 6345.93 | 6343.42 | 6343.47 | 58 |
 
 ## Schema
 
 | Column | Description |
 | --- | --- |
-| `datetime` | Bar open timestamp (UTC, ISO-8601). |
+| `time` | Bar open timestamp (UTC, ISO-8601). |
 | `open` | Opening price of the candlestick bar. |
 | `high` | Highest price during the bar. |
 | `low` | Lowest price during the bar. |
@@ -104,7 +103,7 @@ First and latest rows from the GitHub sample **`EUSTX50_3m.csv`**:
 | `volume` | Tick volume (number of price updates) during the bar. |
 
 ```text
-datetime,open,high,low,close,volume
+time,open,high,low,close,volume
 ```
 
 ## Code examples
@@ -114,11 +113,9 @@ datetime,open,high,low,close,volume
 ```python
 import pandas as pd
 
-df = pd.read_csv('EUSTX50_3m.csv', parse_dates=['datetime'])
-df.set_index('datetime', inplace=True)
+df = pd.read_csv('EUSTX50_3m.csv', parse_dates=['time'])
+df.set_index('time', inplace=True)
 print(df.describe())
-print(df.resample('1h').agg({'open': 'first', 'high': 'max',
-                              'low': 'min', 'close': 'last', 'volume': 'sum'}).head())
 ```
 
 ### backtrader
@@ -127,8 +124,8 @@ print(df.resample('1h').agg({'open': 'first', 'high': 'max',
 import backtrader as bt
 import pandas as pd
 
-df = pd.read_csv('EUSTX50_3m.csv', parse_dates=['datetime'])
-df.set_index('datetime', inplace=True)
+df = pd.read_csv('EUSTX50_3m.csv', parse_dates=['time'])
+df.set_index('time', inplace=True)
 
 class PandasData(bt.feeds.PandasData):
     params = (('datetime', None), ('open', 'open'), ('high', 'high'),
@@ -146,20 +143,20 @@ cerebro.adddata(PandasData(dataname=df))
 import pandas as pd
 import vectorbt as vbt
 
-df = pd.read_csv('EUSTX50_3m.csv', parse_dates=['datetime'])
-close = df.set_index('datetime')['close']
+df = pd.read_csv('EUSTX50_3m.csv', parse_dates=['time'])
+close = df.set_index('time')['close']
 fast, slow = vbt.MA.run(close, 10), vbt.MA.run(close, 50)
 entries = fast.ma_crossed_above(slow)
 exits = fast.ma_crossed_below(slow)
-pf = vbt.Portfolio.from_signals(close, entries, exits, init_cash=10_000, freq='1min')
+pf = vbt.Portfolio.from_signals(close, entries, exits, init_cash=10_000, freq='3min')
 print(pf.stats())
 ```
 
 ## Download full data
 
-The complete **EUSTX50** archive on **[getdata.finance](https://getdata.finance/datasets/eustx50)** includes **11 OHLCV timeframes** (1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W) — **965,428** rows at `1m`, plus all other timeframes in the same ZIP.
+The complete **EUSTX50** archive on **[getdata.finance](https://getdata.finance/datasets/eustx50)** includes **11 OHLCV timeframes** (1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W) — **971,683** rows at `3m`, plus all other timeframes in the same ZIP.
 
 **[-> Get the full EUSTX50 dataset on getdata.finance](https://getdata.finance/datasets/eustx50)**
 
 ---
-*GetData · EUSTX50 3m OHLCV sample on GitHub · Full historical data on [getdata.finance](https://getdata.finance/datasets/eustx50) · 2026-08-04 UTC*
+*GetData · EUSTX50 3m OHLCV sample on GitHub · Full historical data on [getdata.finance](https://getdata.finance/datasets/eustx50)*
